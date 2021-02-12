@@ -2,13 +2,14 @@ body{
     font-family:"Roboto", Arial, sans-serif;
     text-align:center;
     margin-top:50px;
-    color:white;
-    background:#00344d;
+    color: #ffffff;
+    background: #000000;
 }
 table{
     border-collapse:collapse;
     width:150px;
     margin:0 auto;
+
 }
 td{
     width:50px;
@@ -22,14 +23,14 @@ td{
     margin-bottom:10px;
 }
 *:before {
-     font-size:1.5em;
-     line-height:1;
+     font-size:3em;
+
  }
 .cross:before {
-     content:"x";
-     color:lightblue;
+     content:"X";
+     color: #3426ff;
  }
 .circle:before {
-     content:"o";
-     color:pink;
+     content:"O";
+     color: #008d00;
  }
